@@ -374,6 +374,9 @@
 }
 .contact-content {
   max-width: 636px;
+  h4{
+    margin-bottom: 24px;
+  }
 }
 @media screen and (max-width: 992px) {
   .contact-content {
