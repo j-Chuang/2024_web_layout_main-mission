@@ -13,8 +13,8 @@
 }
 /* layout */
 .header {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .logo {
   width: 80px;
@@ -23,15 +23,19 @@
   li {
     text-align: center;
     a {
-      padding-top: 12px;
-      padding-bottom: 12px;
+      padding-top: 25px;
+      padding-bottom: 25px;
     }
   }
 }
 @media screen and (max-width: 720px) {
   .header-nav-list {
-    a {
-      font-size: 14px;
+    li{
+      a {
+        font-size: 14px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+      }
     }
   }
 }
@@ -58,7 +62,8 @@
       font-size: 16px;
       border: 1px solid #ffffff;
       a {
-        padding: 12px 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
       }
     }
   }
@@ -347,7 +352,7 @@
 .recommend-text {
   height: 40%;
   padding: 16px;
-  span {
+  time {
     color: #707070;
   }
 }
@@ -374,7 +379,7 @@
 }
 .contact-content {
   max-width: 636px;
-  h4{
+  h4 {
     margin-bottom: 24px;
   }
 }
@@ -420,7 +425,7 @@
 
 /* GPT大神提供 */
 input[type="checkbox"]:checked {
-  background-color: #000; /* 选中时的底色 */
+  background-color: #349beb; /* 选中时的底色 */
   border-color: #000; /* 选中时的边框色 */
   position: relative;
 }
